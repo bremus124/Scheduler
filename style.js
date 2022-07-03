@@ -1,4 +1,4 @@
-var today = moment().format("MMMM Do YYYY, h:mm:ss a");
+var today = moment().format("MMMM Do YYYY");
 document.getElementById("currentDay").append(today);
 
 var currentHour = moment().hour();
